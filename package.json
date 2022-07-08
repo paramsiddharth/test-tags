@@ -1,0 +1,20 @@
+{
+  "name": "test-tags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paramsiddharth/test-tags.git"
+  },
+  "keywords": [],
+  "author": "Param Siddharth <contact@paramsid.com> (http://www.paramsid.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paramsiddharth/test-tags/issues"
+  },
+  "homepage": "https://github.com/paramsiddharth/test-tags#readme"
+}
