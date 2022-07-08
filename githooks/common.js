@@ -4,7 +4,7 @@ const debug = !!process.env.DEBUG_HOOKS;
 const debugLog = debug ? ((...params) => console.log(...params)) : (() => {});
 
 const run = (cmd, args = [], config = {}) => new Promise((ok, nope) => {
-	const child = spawn(cmd, args, { ...config });
+	const child = spawn(cmd, args, config);
 	
 	let stderr = '';
 	let stdout = '';
