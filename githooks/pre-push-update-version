@@ -73,7 +73,7 @@ const main = async (args) => {
 				fs.writeFileSync(path.join(root, 'package-lock.json'), JSON.stringify(lockfile, null, '\t'));
 				debugLog('Updated package-lock.json.');
 			}
-			if (lockfileVersion !== lockfileVersion2) {
+			if (lockfileVersion2 !== latestVersion) {
 				console.log('Updating package-lock.json (repeated) with version from latest tag...');
 				lockfile.packages[''].version = latestVersion;
 				fs.writeFileSync(path.join(root, 'package-lock.json'), JSON.stringify(lockfile, null, '\t'));
